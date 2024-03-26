@@ -1,0 +1,56 @@
+.campaigns{
+  background-color: lightgrey;
+  margin: 20px;
+  border-radius: 1rem;
+
+  .campaign-tiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  .tile {
+    border-radius: 1rem;
+    background-color: white;
+    max-width: 20%;
+  }
+
+  & .cover-image{
+    border-radius: 1rem;
+    height: 30%;
+    width: 100%;
+  }
+
+  .logo-image {
+    width: calc(10vh);
+    height: calc(10vh);
+    border-radius: 10px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .company-info {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .type {
+    font-weight: bold;
+  }
+}
